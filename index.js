@@ -1,11 +1,11 @@
 let express = require('express'),
   bodyParser = require('body-parser'),
   cors = require('cors'),
-  routes = require('./server-assets/routes/index'),
-  handlers = require('./utils/handlers'),
+  // routes = require('./server-assets/routes/index'),
+  // handlers = require('./utils/handlers'),
   server = express(),
   http = require('http').Server(server);
-  io = require('socket.io')(http),
+  // io = require('socket.io')(http),
   port = process.env.PORT || 1582;
 
 // comment out- routes, handlers, and io
